@@ -5,10 +5,11 @@ body {
   }
   
   #Title {
-    font-size: 3rem;
+    font-size: 4rem; /* Increase the font size to 4rem */
     font-weight: bold;
     color: #333;
     margin-bottom: 2rem;
+    text-shadow: 2px 2px #ccc; /* Add some text shadow for contrast */
   }
   
   #Question {
@@ -70,16 +71,88 @@ body {
   }
   
   #start {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #fff;
-    background-color: #4CAF50;
-    padding: 1rem 2rem;
-    border-radius: 5px;
+    background-color: #2196F3; 
+    border: 5px solid #333;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
     margin-top: 2rem;
     transition: background-color 0.3s ease-in-out;
+    display: none;
   }
   
   #start:hover {
-    background-color: #388E3C;
+    background-color: #0D47A1; 
+  }
+  
+  #easy{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1b9e16; 
+    border: 5px solid #333;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #easy:hover {
+    background-color: #086915; 
+  }
+
+  #medium{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #df8c10; 
+    border: 5px solid #333;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #medium:hover {
+    background-color: #a56a11; 
+  }
+
+  #hard{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e9380c; 
+    border: 5px solid #333;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #hard:hover {
+    background-color: #a82d0e; 
+  }
+
+  #mode{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 2rem;
+    display: none;
+    border: 5px solid #ccc;
+    padding: 1rem;
+    background-color: #d6d6d6;
+  }
+
+  #score{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 2rem;
+    border: 5px solid #ccc;
+    display: none;
+    padding: 1rem;
+    background-color: #d6d6d6;
   }
