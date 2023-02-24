@@ -5,15 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Game</title>
-    <script src="./script.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="Title">Number Game</div><br>
     <div id="Question">2+2</div>
     <input type="text" id="myText" autofocus autocomplete="off">
-    <button onclick="yes()" id="mybutton">Retry</button>
-    <div id="timer">5 Seconds</div>
+    <button onclick="retry()" id="mybutton">Retry</button>
+    <div id="timer"> Seconds</div>
     <button onclick="start();startTimer()" id="start">Start</button>
+    <button onclick="easy();startTimer()" id="easy">Easy</button>
+    <button onclick="medium();startTimer()" id="medium">Medium</button>
+    <button onclick="hard();startTimer()" id="hard">Hard</button>
+    <score id="score">Score: </score>
+    <div id="mode">Medium</div>
+    <script src="./script.js"></script>
 </body>
 </html>
