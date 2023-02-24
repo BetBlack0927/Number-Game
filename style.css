@@ -1,0 +1,85 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #Title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  #Question {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+    display: none
+  }
+  
+  #myText[type="text"] {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    outline: none;
+    position: absolute;
+    left: 750px;
+    display: none
+  }
+  
+  #myText[type="text"]:focus {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #mybutton {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    display: none;
+    position: absolute;
+    left: 905px;
+    margin-top: 0.1rem;
+  }
+  
+  #mybutton:hover {
+    background-color: #666;
+  }
+  
+  #timer {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 7rem;
+    display: none;
+  }
+  
+  #start {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #start:hover {
+    background-color: #388E3C;
+  }
