@@ -30,9 +30,10 @@ body {
     transition: box-shadow 0.2s ease-in-out;
     outline: none;
     position: absolute;
-    left: 39%;
-    display: none
-  }
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
   
   #myText[type="text"]:focus {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -51,9 +52,10 @@ body {
     transition: background-color 0.2s ease-in-out;
     display: none;
     position: absolute;
-    left: 47%;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 0.1rem;
-  }
+}
   
   #mybutton:hover {
     background-color: #666;
@@ -156,3 +158,6 @@ body {
     padding: 1rem;
     background-color: #d6d6d6;
   }
+  
+  
+  
