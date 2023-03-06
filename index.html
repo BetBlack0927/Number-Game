@@ -14,9 +14,9 @@
     <button onclick="retry()" id="mybutton">Retry</button>
     <div id="timer"> Seconds</div>
     <button onclick="start();startTimer()" id="start">Start</button>
-    <button onclick="easy();startTimer()" id="easy">Easy</button>
-    <button onclick="medium();startTimer()" id="medium">Medium</button>
-    <button onclick="hard();startTimer()" id="hard">Hard</button>
+    <button onclick="chooseGameMode('easy');startTimer()" id="easy">Easy</button>
+    <button onclick="chooseGameMode('medium');startTimer()" id="medium">Medium</button>
+    <button onclick="chooseGameMode('hard');startTimer()" id="hard">Hard</button>
     <score id="score">Score: </score>
     <div id="mode">Medium</div>
     <script src="./script.js"></script>
