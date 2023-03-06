@@ -9,34 +9,30 @@ var z=Math.floor(Math.random()*100)+1;
 var score = 0;
 var mode;
 
-function easy(){
-    mode = "Easy"
-    count = 15
+function chooseGameMode(gamemode){
+    if(gamemode == 'easy')
+    {
+        count = 15;
+        factor = 5;
+        mode = 'Easy';
+    }
+    if(gamemode == 'medium')
+    {
+        count = 10;
+        factor = 3;
+        mode = 'Medium';
+    }
+    if(gamemode == 'hard')
+    {
+        count = 5;
+        factor = 2;
+        mode = 'Hard';
+    }
     start()
     document.getElementById("easy").style.display="none"
     document.getElementById("medium").style.display="none"
     document.getElementById("hard").style.display="none"
-    factor = 5
-}
-
-function medium(){
-    mode = "Medium"
-    count =10
-    start()
-    document.getElementById("easy").style.display="none"
-    document.getElementById("medium").style.display="none"
-    document.getElementById("hard").style.display="none"
-    factor = 3  
-}
-
-function hard(){
-    mode = "Hard"
-    count = 5
-    start()
-    document.getElementById("easy").style.display="none"
-    document.getElementById("medium").style.display="none"
-    document.getElementById("hard").style.display="none"
-    factor = 2
+    
 }
 
 function start(){
